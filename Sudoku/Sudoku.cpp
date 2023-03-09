@@ -274,35 +274,3 @@ int main()
     finish:
     return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
-
-
-
-
-// board numara dizilimi belirlendikten sonra zorluk seviyesi(3 seviye olabilir) seçildikten sonra,
-// Her zorlukta boardda baþtan verilebilecek toplam kutu sayýsý deðiþir. 
-// Ayrýca her 9 luk kutuda en fazla 5 rakam gösterilebilir gibi ek kural konulmasý gerekli olabilir.
-// Mesela toplam 81 sayý var; 
-// Zor: 25 sayý
-// Orta: 30 sayý
-// Kolay: 35 sayý
-// Gösterilecek rakamlarýn yerleri kritik
-
-
-
-// Satýr ve kolon oluþturulurken, time complexity açýsýndan 2 boyutlu column0-8 ve row0-8 gibi flag array'lerinden oluþan array'ler oluþturulabilir
-// Eðer ki 3. kolonda 5 numarasý var ise, column3 flag array'inde
-// 4 nolu index(veya 0. index hep boþ kullanýlarak 5 nolu index)  1 yapýlarak flag açýlýr.
-// Böylece tek tek kolon elemanlarý taranmaz. Ek olarak 9 luk kutu için de 2 boyutlu Box0-8 gibi bir flag array oluþturulabilir.
-// 81 kutu için her seferinde random oluþturmak programýn kilitlenmesine yol açýyor. Bu sebeple 1-9 a random array oluþturarak satýr satýr bu array içinden numara çekilecek.
-// Belki bu numara çekimini bazen baþtan baþlayarak bazen de sondan baþlayarak, genel dizilim düzenini daha rastlantýsal hale getirebiliriz.
