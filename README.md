@@ -2,6 +2,7 @@
 
 I am learning C++. Therefore this is a project for learning practice. I probably did a lot of mistakes. 
 Therefore if you detect any mistakes or if you have any ideas to improve the code, please commit.
+This game is intented to play through console. 
 
 About the code, it has couple of tasks;
 
